@@ -1,0 +1,8 @@
+.SoundButton {
+    box-shadow: 1px 1px 3px 1px black;
+    border-radius: 0.5em;
+    height: 90px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 1.1em;
+}

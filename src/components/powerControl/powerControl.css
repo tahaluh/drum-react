@@ -1,0 +1,12 @@
+.PowerControl {
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    padding: 3px;
+}
+
+.PowerControlIndicator {        
+    background-color: blue;
+    width: 28px;
+    height: 20px;
+}
