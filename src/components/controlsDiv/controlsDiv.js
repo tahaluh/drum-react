@@ -6,26 +6,26 @@ import Visor from "../visor/visor";
 import { useEffect, useState } from "react";
 
 export default function ControlsDiv(props) {
-  const [displayValue, setDisplayValue] = useState("");
   
   return (
     <div className="ControlsDiv">
       <PowerControl
         power={props.power}
         setPower={props.setPower}
-        setDisplayValue={setDisplayValue}
+        setDisplayValue={props.setDisplayValue}
       ></PowerControl>
-      <Visor displayValue={displayValue}></Visor>
+      <Visor displayValue={props.displayValue}></Visor>
       <VolumeRange
         power={props.power}
         volume={props.volume}
         setVolume={props.setVolume}
-        setDisplayValue={setDisplayValue}
+        setDisplayValue={props.setDisplayValue}
+        audiosNames={props.audiosNames}
       ></VolumeRange>
       <BankControl
         bankState={props.bankState}
         setBankState={props.setBankState}
-        setDisplayValue={setDisplayValue}
+        setDisplayValue={props.setDisplayValue}
       ></BankControl>
     </div>
   );

@@ -1,5 +1,14 @@
 .Visor {
     height: 40px;
     width: 80%;
-    background-color: grey;
+    background-color: var(--soundButtonBackgroundColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VisorText {
+    font-family: monospace;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
