@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/drum-react/static/css/main.485d0478.css",
-    "main.js": "/drum-react/static/js/main.82c311fb.js",
+    "main.js": "/drum-react/static/js/main.e88ef239.js",
     "index.html": "/drum-react/index.html",
     "main.485d0478.css.map": "/drum-react/static/css/main.485d0478.css.map",
-    "main.82c311fb.js.map": "/drum-react/static/js/main.82c311fb.js.map"
+    "main.e88ef239.js.map": "/drum-react/static/js/main.e88ef239.js.map"
   },
   "entrypoints": [
     "static/css/main.485d0478.css",
-    "static/js/main.82c311fb.js"
+    "static/js/main.e88ef239.js"
   ]
 }
